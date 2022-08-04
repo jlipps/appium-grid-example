@@ -1,0 +1,8 @@
+server:
+  port: 4733
+  use-drivers:
+    - xcuitest
+  default-capabilities:
+    wdaLocalPort: 8110
+    mjpegServerPort: 9110
+    mjpegScreenshotUrl: "http://localhost:9110"
